@@ -6,7 +6,7 @@
 @layer base {
   * {
     @apply border-border outline-ring/50 antialiased;
-    font-family: var(--font-sans);
+    font-family: var(--font-sans), serif;
   }
   body {
     @apply bg-background text-foreground;
@@ -21,8 +21,6 @@
     @apply bg-background text-foreground;
   }
 }
-
-@import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
 
