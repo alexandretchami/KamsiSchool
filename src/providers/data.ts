@@ -47,5 +47,5 @@ export const dataProvider: DataProvider = {
     update: async () => { throw new Error("Cette fonction n'est pas présente dans la simulation") },
     deleteOne: async () => { throw new Error("Cette fonction n'est pas présente dans la simulation") },
 
-    getApiUrl: () => "https://mock.local",
+    getApiUrl: () => "",
 };
